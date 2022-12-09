@@ -1,0 +1,25 @@
+.avatarImages {
+  max-width: 250px;
+  height: 250px;
+}
+
+.profile-pic {
+  width: 36px;
+  height: 36px;
+}
+.form-group {
+  position: relative;
+}
+
+.form-group .showPassword {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  font-size: 0;
+}
+
+.form-group .showPassword img {
+  width: 18px;
+  height: 18px;
+}

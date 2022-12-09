@@ -1,0 +1,12 @@
+.copy_btn {
+  position: relative;
+}
+
+.copy_btn button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  padding: 5px 10px;
+}

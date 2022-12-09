@@ -1,0 +1,227 @@
+body {
+  background: #f5f6f8 !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .ui.pagination.menu > a {
+    min-width: auto !important;
+    height: auto !important;
+    min-height: auto !important;
+  }
+}
+
+/* .toggler_icon {
+  background-image: url('./images/togglerImg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+
+} */
+
+@media (max-width: 767px) {
+  .main_navbar_container {
+    max-width: 100%;
+  }
+  .mobile_in {
+    display: flex;
+    align-items: center;
+    padding: 0 20px !important;
+    justify-content: space-between;
+  }
+  .main-navbar .mobile_logo #main-logo {
+    width: 90px;
+  }
+  .main-navbar .navbar {
+    height: 60px;
+  }
+  .mobile_in ul.border-left {
+    border-left: 0 !important;
+  }
+  .main-navbar .navbar .navbar-nav .dropdown-menu {
+    top: 42px;
+  }
+  .main-navbar.sticky-top .dropdown .nav-link {
+    font-size: 13px;
+    padding: 0 !important;
+    margin: 0;
+  }
+  .main-navbar.sticky-top .dropdown-menu-small .dropdown-item {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .mobile_in .navbar .nav-link {
+    min-width: auto;
+  }
+  .nav i.icon.sidebar:before {
+    content: "\f0c9";
+    color: #333;
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+  }
+
+  .mobile_in .nav-link {
+    min-width: 45px;
+    height: 45px;
+    line-height: 30px;
+    position: relative;
+    top: 5px;
+  }
+  .main-navbar .navbar .navbar-nav .dropdown-menu {
+    top: 55px;
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  right: 0 !important;
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+
+button.btn.btn-primary {
+  white-space: nowrap;
+  color: #fff !important;
+}
+.table-hover tbody tr:hover {
+  background: rgba(244, 81, 38, 0.2);
+}
+.table > :not(:first-child) {
+  border-top: 0 !important;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background: #947ffe !important;
+}
+td.pl-3.text-nowrap.approved {
+  color: green;
+}
+
+td.pl-3.text-nowrap.pending {
+  color: rgb(128, 30, 0);
+}
+
+td.pl-3.text-nowrap.disapproved {
+  color: red;
+}
+.external_wallet label {
+  display: flex;
+  font-size: 14px;
+}
+.modal-title {
+  font-weight: 400 !important;
+}
+
+td.pl-3.text-nowrap.canclled {
+  color: red;
+}
+
+td.pl-3.text-nowrap.claimed {
+  color: rgb(79, 128, 0);
+}
+
+td.pl-3.text-nowrap.dispute {
+  color: rgb(128, 0, 17);
+}
+.main-content-container.px-4.pb-4.container-fluid .card .row-data {
+  border: 1px solid gray;
+  padding: 20px 0px;
+}
+.main-content-container.px-4.pb-4.container-fluid .card .row-data .col-lg-6 {
+  border: 1px solid gray;
+  padding: 20px 0px;
+}
+.ui.menu:not(.vertical) .item.active {
+  color: #fff !important;
+}
+
+.depositModal {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
+  height: 100%;
+}
+
+.depositModal input {
+  padding: 10px 15px;
+  height: 37px;
+}
+
+.depositModal button {
+  border-radius: 0;
+  padding: 10px 15px;
+  height: 37px;
+}
+#submit-login {
+  color: #fff !important;
+}
+.pwcol {
+  position: relative;
+}
+.pwcol .showPassword {
+  position: absolute;
+  z-index: 12;
+  top: 10px;
+  right: 10px;
+}
+.profilePic {
+  width: 250px !important;
+  height: 230px !important;
+}
+
+.overlayDiv {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

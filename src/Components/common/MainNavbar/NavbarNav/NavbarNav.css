@@ -1,0 +1,13 @@
+.logoutModal{
+text-align: center;
+font-size: 18px;
+}
+
+
+.logoutModal .modal-header{
+    border-bottom: 0;
+}
+
+.logoutModal  .modal-footer{
+    border-top: 0;
+}

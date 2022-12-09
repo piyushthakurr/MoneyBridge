@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+label,
+input,
+select,
+li,
+button,
+span {
+  font-family: "Open Sans", sans-serif !important;
+}
+.table td,
+.table th {
+  white-space: nowrap;
+}
+
+i.icon.sidebartoggler_icon:before {
+  font-size: 20px !important;
+}
+
+.nav-item.dropdown {
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+}
+img.disputeImg {
+  height: 35px;
+  width: 100%;
+}
+
+.backBtn {
+  float: right;
+}
+
+.form-group {
+  position: relative;
+  text-align: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.select,
+select {
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+  appearance: auto !important;
+}
+.withdrawLimitUl {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.withdrawLimitUl p {
+  margin-bottom: 0;
+  margin-left: 0px;
+}
+
+.withdrawLimitUl li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.withdrawLimitUl li div {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}

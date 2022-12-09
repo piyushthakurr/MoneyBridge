@@ -1,0 +1,9 @@
+.formBasicPassword {
+  position: relative;
+}
+.formBasicPassword .showPassword {
+  position: absolute;
+  z-index: 12;
+  top: 10px;
+  right: 10px;
+}

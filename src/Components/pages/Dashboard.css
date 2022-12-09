@@ -1,0 +1,9 @@
+.graph_card{
+    padding: 15px;
+}
+.graph_area {
+    margin-bottom: 50px;
+}
+.graph_card .card-title h3 {
+    font-weight: 500;
+}

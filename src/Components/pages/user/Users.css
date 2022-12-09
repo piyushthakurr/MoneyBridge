@@ -1,0 +1,144 @@
+.users_row {
+  background: #fff;
+  padding: 15px;
+  border-radius: 0.625rem;
+  box-shadow: 0 1px 8px rgba(15 34 58 / 0.05);
+}
+
+.ui.menu.custom_pointing {
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+.ui.menu.custom_pointing a::before {
+  display: none;
+}
+.ui.menu.custom_pointing a.active {
+  background: #947ffe !important;
+  border-radius: 5px;
+}
+.ui.menu.custom_pointing a {
+  border: 1px solid #efefef;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.ui.pointing.menu.custom_pointing .active.item:after {
+  background-color: #947ffe !important;
+}
+
+.usr_detail .detail_in {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  justify-content: space-between;
+}
+.usr_detail .detail_in label {
+  margin: 0;
+}
+.ui.segment.usr_detail {
+  box-shadow: unset;
+  border: 1px solid #efefef;
+}
+
+.edit_icon a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: #f5f6f8;
+  border-radius: 50%;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 4px;
+}
+.edit_icon a i {
+  line-height: 34px;
+  margin: 0;
+}
+.edit_icon .view {
+  background: #947ffe;
+  color: #fff;
+}
+.edit_icon .edit {
+  background: #9aecf9;
+  color: #037f94;
+}
+.edit_icon .dlt {
+  background: #f9d8d8;
+  color: #ff0909;
+}
+.withdrw_srch .form-group {
+  margin: 0;
+}
+
+@media (min-width: 1366px) {
+  .users_row > div {
+    flex: 0 0 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .user_detail_flow {
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .ui.segment.usr_detail {
+    width: 650px;
+  }
+}
+
+@media (max-width: 767px) {
+  .users_row .react-datepicker-wrapper {
+    margin-bottom: 15px;
+  }
+  .ui.pagination.menu {
+    margin: 10px 0 0;
+  }
+  .ui.pagination.menu .item {
+    margin: 0 3px;
+    width: 25px;
+    height: 25px !important;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ui.menu.custom_pointing a {
+    padding: 7px 9px;
+    font-size: 13px;
+    height: 35px;
+  }
+  .ui.menu.custom_pointing {
+    border: 1px solid transparent;
+    box-shadow: none;
+    flex-wrap: wrap;
+  }
+  .ui.menu.custom_pointing a {
+    margin: 0 10px 10px 0px;
+  }
+  .card-body {
+    padding: 15px;
+  }
+  h3.edit_info.card-header {
+    padding-left: 15px;
+  }
+  .ui.pointing.menu.custom_pointing .active.item:after {
+    display: none;
+  }
+  .ui.segment.usr_detail {
+    width: auto;
+  }
+  .withdrw_tran .mb-0.form-group {
+    margin-bottom: 15px !important;
+  }
+  .user_detail_flow {
+    overflow-x: unset;
+  }
+}
+@media (max-width: 991px) {
+  .withdrw_tran.mb-3.row {
+    margin-bottom: 0 !important;
+  }
+  .withdrw_tran.mb-3.row .col-sm-12 {
+    margin-bottom: 15px;
+  }
+}
